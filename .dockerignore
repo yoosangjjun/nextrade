@@ -1,0 +1,13 @@
+.venv
+__pycache__
+*.pyc
+.git
+.env
+tests
+*.db
+logs
+.pytest_cache
+.mypy_cache
+.ruff_cache
+TODO.md
+nextrade.md

@@ -1,0 +1,13 @@
+services:
+  nextrade:
+    build: .
+    container_name: nextrade
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      - TZ=Asia/Seoul
+    volumes:
+      - ./db:/app/db
+      - ./ml/models:/app/ml/models
+      - ./logs:/app/logs

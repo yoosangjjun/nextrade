@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Environment
+.env
+
+# Database
+db/*.db
+
+# Logs
+logs/
+
+# ML models (generated)
+ml/models/*.joblib
+ml/models/*.json
+
+# IDE
+.vscode/
+.idea/
+
+# Testing / Linting cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS
+.DS_Store
